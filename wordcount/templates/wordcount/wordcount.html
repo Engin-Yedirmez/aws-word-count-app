@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Word Count </title>
+</head>
+<body>
+    <h1> Word Count Tool </h1>
+    <form method="post" action="{% url 'wordcount:word_count' %}">
+        {% csrf_token %}
+        <label for="text"> Enter the text: </label> <br>
+        <textarea id="text" name="text"> </textarea> <br>
+        <button type="submit"> Count Words </button>
+    </form>
+</body>
+</html>
