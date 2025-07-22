@@ -97,5 +97,5 @@ This project is for educational purposes and is shared as part of a student proj
 
 ## 👥 Team Members
 
-- [@x3rtioN](https://github.com/x3rtioN)
+- [@1eclerc](https://github.com/1eclerc)
 - [@Engin-Yedirmez](https://github.com/Engin-Yedirmez)
